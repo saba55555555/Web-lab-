@@ -1,0 +1,16 @@
+const instagramProfile = {
+    username: "Saba nawaz",
+    followers: 588900,
+    following: 390900,
+    posts: 45,
+
+    profilePic: "https://www.instagram.com/"
+};
+
+console.log("Instagram Profile:");
+console.log("Username:", instagramProfile.username);
+console.log("Followers:", instagramProfile.followers);
+console.log("Following:", instagramProfile.following);
+console.log("Posts:", instagramProfile.posts);
+
+console.log("Profile Picture URL:", instagramProfile.profilePic);
