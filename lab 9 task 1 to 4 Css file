@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: navy;
+}
+
+.para {
+    color: black;
+    margin: 10px 0;
+}
+
+#demo,
+#textPara {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
