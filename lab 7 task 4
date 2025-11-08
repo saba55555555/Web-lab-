@@ -1,0 +1,9 @@
+let companies = ["Lamda", "CodeZone", "DevPoint", "WebTech"];
+
+companies.shift();
+
+companies.splice(1, 1, "NextGen");
+
+companies.push("AppWorks");
+
+console.log(companies);
