@@ -1,0 +1,13 @@
+function findVowels(word) {
+    let letters = "aeiouAEIOU";
+    let total = 0;
+
+    for (let ch of word) {
+    if (letters.includes(ch)) {
+    total++;
+    }
+    }
+    return total;
+}
+
+console.log(findVowels("Education"));
