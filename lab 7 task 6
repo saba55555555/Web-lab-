@@ -1,0 +1,13 @@
+let vowelCounter = (text) => {
+    let letters = "aeiouAEIOU";
+    let total = 0;
+
+    for (let c of text) {
+    if (letters.includes(c)) {
+        total++;
+    }
+    }
+    return total;
+};
+
+console.log(vowelCounter("JavaScript"));
