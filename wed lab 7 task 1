@@ -1,0 +1,7 @@
+let values = [3, 6, 11, 20, 25, 42];
+
+for (let item of values) {
+    if (item % 2 == 0) {
+    console.log("Even:", item);
+    }
+}
