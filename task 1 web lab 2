@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <title>Form</title>
+ <style>
+   body {
+     
+     animation: fadeIn 2s ease-in-out;
+   }
+
+   h2 {
+     color: #1d72b8;
+     animation: slideDown 1.5s ease;
+   }
+
+   input {
+     border: 1px solid #ccc;
+     transition: border-color 0.3s, box-shadow 0.3s;
+   }
+
+   input:focus {
+     border-color: #1d72b8;
+     box-shadow: 0 0 6px rgba(29,114,184,0.5);
+     outline: none;
+   }
+
+   button {
+     background: #1d72b8;
+     color: white;
+     border: none;
+  
+   }
+
+   button:hover {
+     background: #155a8a;
+     transform: scale(1.05);
+   }
+
+   table {
+     border-collapse: collapse;
+     animation: fadeInUp 2s ease;
+   }
+
+   th, td {
+     border: 1px solid #ccc;
+     transition: background 0.3s;
+   }
+
+   th {
+     background: #f1f1f1;
+   }
+
+   tr:hover td {
+     background: #e0f3ff;
+   }
+
+   /* Animations */
+   @keyframes fadeIn {
+     from { opacity: 0; }
+     to { opacity: 1; }
+   }
+
+   @keyframes slideDown {
+     from { transform: translateY(-30px); opacity: 0; }
+     to { transform: translateY(0); opacity: 1; }
+   }
+
+   @keyframes fadeInUp {
+     from { transform: translateY(20px); opacity: 0; }
+     to { transform: translateY(0); opacity: 1; }
+   }
+ </style>
+</head>
+<body>
+  <h2>Registration form</h2>
+
+  <label>First Name:</label><br>
+  <input type="text" name="First name"><br><br>
+
+  <label>Last Name:</label><br>
+  <input type="text" name="Last name"><br><br>
+
+  <label>City:</label><br>
+  <input type="text" name="Enter your City"><br><br>
+
+  <label>Zip Code:</label><br>
+  <input type="number" name="Enter Zipcode"><br><br>
+
+  <label>Date of birth:</label><br>
+  <input type="date" name="Enter your DOB"><br><br>
+
+  <a href="signinPage.html">
+    <button>Submit</button>
+  </a>
+
+  <table>
+    <tr>
+      <th>Sr No.</th>
+      <th>Student Name</th>
+      <th>Student ID</th>
+      <th>Program</th>
+      <th>Semester</th>
+      <th>CGPA</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ali</td>
+      <td>09876</td>
+      <td>Computer Science</td>
+      <td>3rd</td>
+      <td>3.49</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ahmed</td>
+      <td>12345</td>
+      <td>Software Engineering</td>
+      <td>2nd</td>
+      <td>3.65</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sara</td>
+      <td>56789</td>
+      <td>IT</td>
+      <td>1st</td>
+      <td>3.80</td>
+    </tr>
+  </table>
+</body>
+</html>
