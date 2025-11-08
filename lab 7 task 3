@@ -1,0 +1,5 @@
+let cities = ["lahore", "karachi", "islamabad"];
+
+for (let place of cities) {
+    console.log(place.toUpperCase());
+}
