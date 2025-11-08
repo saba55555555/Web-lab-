@@ -1,0 +1,5 @@
+let marks = [35, 60, 75, 40, 55, 90, 20];
+let passed = marks.filter(function(mark) {
+    return mark > 50;
+});
+console.log("Marks greater than 50:", passed);
