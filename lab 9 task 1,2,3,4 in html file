@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DOM Manipulation Lab</h1>
+
+    <p class="para">This is the first paragraph .</p>
+    <p class="para">This is the second paragraph .</p>
+
+    <p id="demo">Original content of the paragraph.</p>
+
+    <p id="textPara">This text will be replaced without tags.</p>
+
+    <ul>
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
