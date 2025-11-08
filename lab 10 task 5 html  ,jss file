@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+    <script src="task5.js"></script>
+</head>
+<body style="text-align:center;">
+    <p id="para">This paragraph will hide and show.</p>
+    <button onclick="toggleText()">Hide / Show</button>
+</body>
+</html>
+// jss
+function toggleText() {
+    let p = document.getElementById("para");
+    if (p.style.display === "none") {
+    p.style.display = "block";
+    } else {
+    p.style.display = "none";
+    }
+}
