@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntroPage</title>
+</head>
+<body>
+    <!-- Simple header (no navigation) -->
+<header>
+<h1>TechHub</h1>
+<p>Your place to learn, build, and share tech projects.</p>
+<hr>
+</header>
+
+
+<h2>Welcome to TechHub</h2>
+<p>Explore tutorials, code snippets, and community projects designed for learners of all levels.</p>
+</section>
+
+
+<h3>About TechHub</h3>
+<p>We publish simple guides, practical project ideas, and helpful tips so you can build faster and learn confidently.</p>
+
+<h3>Get Started</h3>
+<a href="RegisterationForm.html">
+  <button>Get Started</button>
+</a>
+</html>
