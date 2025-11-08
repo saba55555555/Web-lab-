@@ -1,0 +1,19 @@
+// Task 1
+let paragraphs = document.querySelectorAll(".para");
+paragraphs.forEach(function (para) {
+    para.style.color = "blue";
+});
+
+// Task 2
+let demoPara = document.getElementById("demo");
+demoPara.innerHTML = "This is the new content with <b>bold text</b> inside it.";
+
+// Task 3
+let textPara = document.getElementById("textPara");
+textPara.innerText = "This is the new visible text without any tags.";
+
+// Task 4
+let listItems = document.querySelectorAll("li");
+listItems.forEach(function (item) {
+    item.textContent = item.textContent.toUpperCase();
+});
