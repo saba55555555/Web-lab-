@@ -1,0 +1,15 @@
+let data = [12, 55, 4, 87, 19, 2];
+let largest = data[0];
+let smallest = data[0];
+
+for (let val of data) {
+    if (val > largest) {
+    largest = val;
+    }
+    if (val < smallest) {
+    smallest = val;
+    }
+}
+
+console.log("Maximum =", largest);
+console.log("Minimum =", smallest);
