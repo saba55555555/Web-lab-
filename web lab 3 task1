@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login Page</h2>
+
+    <label>Username:</label>
+    <input type="text" name="username">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <label>Password:</label>
+    <input type="password" name="password">
+
+    <button>Login</button>
+  </div>
+</body>
+</html>
+Style login.css
+
+
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #9caeef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: #848d8f;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #010d0c;
+  font-size: 22px;
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #010f01;
+  font-size: 14px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-box input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 6px #0077cc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0077cc;
+  color: rgb(231, 229, 135);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #005fa3;
+}
+Sign .html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="signin.css">  <!-- Linking CSS -->
+</head>
+<body>
+  <div class="signin-box">
+    <h2>SignIn Page</h2>
+
+    <label>Username:</label>
+    <input type="text" name="username">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <label>Password:</label>
+    <input type="password" name="password">
+
+    <a href="login.html">
+      <button>Sign In</button>
+    </a>
+  </div>
+</body>
+</html>
+
+Sign .css code
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ede77c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form, .signin-box {
+  background: #98eede;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0c0c0c;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #0e0d0d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ed9393;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #63ea73;
+  box-shadow: 0 0 5px #cbcbc8;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0073e6;
+  color: rgb(169, 122, 122);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #86888a;
+}
+
+
