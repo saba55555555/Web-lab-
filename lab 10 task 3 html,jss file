@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 3</title>
+<script src="task3.js" defer></script>
+<style>
+
+.text1 {
+    color:  blue;
+    font-size: 20px;
+
+    padding: 10px;
+}
+
+</style>
+</head>
+
+<body style="text-align:center;">
+<p class="text1">This is a styled paragraph</p>
+</body>
+</html>
+// jss
+let newCSS = document.createElement("style");
+newCSS.textContent =
+    `.newClass {
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+    }`;
+
+document.head.append(newCSS);
+
+let para = document.querySelector(".text1");
+
+para.classList.add("newClass");
