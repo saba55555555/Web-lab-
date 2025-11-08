@@ -1,0 +1,5 @@
+const toSeconds = (minutes) => {
+    return minutes * 60;
+};
+
+console.log("Minutes to seconds:", toSeconds(5));
