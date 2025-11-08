@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Header</h1>
+  </div>
+
+  <!-- Main layout -->
+  <div class="main">
+
+    <!-- Left Sidebar -->
+    <div class="sidebar-left">
+      <img src="logo.png" alt="University Logo" width="120"><br><br>
+      <h3>Courses:</h3>
+      <a href="#">WAD</a><br>
+      <a href="#">Enterprise</a><br>
+      <a href="#">Database</a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h2>How to learn web development?</h2>
+      <p>
+        Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+        Responsive Web Design is used in all types of modern web development.
+        ECMAScript 5 (JavaScript 5) is supported in all modern browsers.
+        Take a good look at it, especially the new array functions.
+      </p>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="sidebar-right">
+      <img src="logo.png" alt="University Logo" width="120">
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+
+</body>
+</html>
+Csss.html
+/* General page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cfcfcf; /* grey background */
+  color: #333;
+  max-width: 1366px; /* laptop screen width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+header {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 28px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Body layout */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 500px; /* ensures body fills space on laptop screen */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+  text-decoration: none;
+}
+
+/* Main content */
+.content {
+  width: 55%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Rightbar */
+.rightbar {
+  width: 20%;
+  text-align: center;
+}
+
+.rightbar img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
