@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lab 10 task 1</title>
+    <script src="task1.js"></script>
+</head>
+<body style="text-align:center;"> 
+    <p class="text1">Paragraph with class name</p>
+    <button onclick="changeClass()">Change Class</button>
+</body>
+</html>
+// js
+function changeClass() {
+    let para = document.querySelector(".text1");
+    let value = para.getAttribute("class");
+    alert("Old class name is: " + value);
+    para.setAttribute("class", "new class");
+    alert("Class name changed to: new class");
+}
