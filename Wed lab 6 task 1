@@ -1,0 +1,10 @@
+let bigNum = 44789999999999999999999n;
+console.log(typeof bigNum);
+
+let mySymbol = Symbol("account");
+console.log(typeof mySymbol);
+
+console.log(Number("789"));
+console.log(parseInt("123"));
+console.log(parseFloat("456.78"));
+console.log(String(2025));
