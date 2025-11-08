@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+    <script src="task2.js"></script>
+</head>
+<body style="text-align:center;">
+    <h2>Button Example</h2>
+</body>
+</html>
+// jss
+let login = document.createElement("button");
+login.textContent = "Log In";
+login.style.backgroundColor = "blue";
+login.style.color = "white";
+login.style.fontSize = "20px";
+login.style.padding = "10px 20px";
+
+document.documentElement.prepend(login);
