@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar & Slider</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <h1> Islamic
+    
+  </h1>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Slider -->
+  <div class="slider">
+    <div class="slides">
+      <img src="images/slide1.jpg" alt="Slide 1">
+      <img src="images/slide1 - Copy (2).jpg" alt="Slide 2">
+      <img src="images/slide1.jpg" alt="Slide 3">
+    </div>
+  </div>
+    </div>
+
+</body>
+</html>
+
+Style.css
+
+
+ body {
+            margin: 0;
+            font-family: Arial;
+            background: #6ee1d9;
+        }
+.navbar {
+  display: flex;                
+  justify-content: space-around;
+  align-items: center;
+  background: #e30ce3;
+  padding: 10px;
+}
+
+.navbar a {
+  color: rgb(1, 165, 64);
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background: #eb13ff;
+  border-radius: 5px;
+}
+.navbar {
+  display: flex;                
+  justify-content: space-around;
+  align-items: center;
+  background: #20e60e;
+  padding: 10px;
+}
+
+.navbar a {
+  color: rgb(72, 3, 62);
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background: #0b7bd0;
+  border-radius: 5px;
+  }
+
+
+
+.slider {
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(15, 26, 240, 0.3);
+}
+
+.slides {
+  display: flex;
+  width: 300%; 
+  animation: slide 9s infinite;
+}
+
+.slides img {
+  width: 100%;
+}
+
+@keyframes slide {
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+
+}
