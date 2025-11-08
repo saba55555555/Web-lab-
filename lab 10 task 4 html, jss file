@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 4</title>
+<script src="task4.js" defer></script>
+</head>
+
+<body style="text-align:center;">  
+<h2>Bulb ON/OFF Example</h2>
+
+<img id="myBulb" src="https://www.w3schools.com/js/pic_bulboff.gif" width="150" onclick="toggleBulb()">
+
+</body>
+</html>
+//jss
+function toggleBulb() {
+    let bulb = document.getElementById("myBulb");
+    let src = bulb.getAttribute("src");
+
+    if (src ==="https://www.w3schools.com/js/pic_bulboff.gif") {
+    bulb.setAttribute("src", "https://www.w3schools.com/js/pic_bulbon.gif");
+    } else {
+    bulb.setAttribute("src", "https://www.w3schools.com/js/pic_bulboff.gif");
+    }
+}
